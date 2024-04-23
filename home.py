@@ -28,7 +28,7 @@ def translate_sentence(sentence, model, tokenizer):
     return translation[0]['translation_text']
 
 def main():
-    st.title("English to German Translation. (ML for NLP 2 demo)")
+    st.title("English to German Translation.")
     model_path = "./en_de_model"
 
     # Load the model and tokenizer
